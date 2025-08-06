@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>CADASTRO</h2>
+        <form action="cadastro.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required>
+
+            <label for="genero">Gênero de sua preferência:</label>
+            <select name="genero" id="genero" required>
+                <option value="acao">Ação</option>
+                <option value="estrategia">Estratégia</option>
+                <option value="terror">Terror</option>
+            </select>
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+
+            <label for="confirmar_senha">Confirmar Senha:</label>
+            <input type="password" name="confirmar_senha" id="confirmar_senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="index.html">Faça login aqui</a></p>
+    </div>
+</body>
+</html>
