@@ -22,41 +22,41 @@ if (!isset($_SESSION['user_id'])) {
         <p class="title">TERROR</p>
 
         <nav>
-            <a href="acao.html">Ação</a>
-            <a href="estrategia.html">Estratégia</a>
-            <a href="terror.html" class="ativo">Terror</a>
+            <a href="acao.php">Ação</a>
+            <a href="estrategia.php">Estratégia</a>
+            <a href="terror.php" class="ativo">Terror</a>
         </nav>
     </header>
 
     <section class="games">
         <div class="card">
-            <img src="images/fortnite.png" alt="" class="thumbnails">
-            <p class="description">Fortnite é um jogo eletrônico multijogador online revelado originalmente em 2011, desenvolvido pela Epic Games e lançado como diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.</p>
+            <img src="images/outlast.png" alt="" class="thumbnails">
+            <p class="description">Outlast é um jogo de survival horror desenvolvido e publicado pela Red Barrels, uma empresa fundada por pessoas previamente envolvidas com alguns jogos eletrônicos, tais como Prince of Persia, Assassin Creed, Tom Clancy's Splinter Cell e Uncharted.  </p>
         </div>
 
         <div class="card">
-            <img src="images/csgo.png" alt="" class="thumbnails">
-            <p class="description">Counter-Strike: Global Offensive (CS:GO) foi um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.</p>
+            <img src="images/five.png" alt="" class="thumbnails">
+            <p class="description">Five Nights at Freddy's é um jogo eletrônico independente de survival horror desenvolvido e publicado por Scott Cawthon. </p>
         </div>
 
         <div class="card">
-            <img src="images/callofduty.png" alt="" class="thumbnails">
-            <p class="description">Call of Duty é uma série de jogos eletrônicos de tiro em primeira pessoa. O primeiro título da série foi lançado em 2003 exclusivamente para computadores. Mais tarde a série se expandiu para os mais variados sistemas, consoles, portáteis e smartphones.</p>
+            <img src="images/silent.png" alt="" class="thumbnails">
+            <p class="description">Silent Hill é uma série de jogos eletrônicos de survival horror e de tiro em terceira pessoa, desenvolvida e publicada pela Konami. </p>
         </div>
 
         <div class="card">
-            <img src="images/mortalkombat.png" alt="" class="thumbnails">
-            <p class="description">Mortal Kombat é uma franquia americana de jogos eletrônicos de luta originalmente desenvolvidos e publicados pela Midway Games com seu primeiro lançamento em 1992 para arcades.</p>
+            <img src="images/resident.png" class="thumbnails">
+            <p class="description">Resident Evil 7: Biohazard, conhecido no Japão como Biohazard 7: Resident Evil é um jogo eletrônico do gênero survival horror produzido pela Capcom e lançado em 24 de janeiro de 2017 para Microsoft Windows, PlayStation 4 e Xbox One, com a versão de PlayStation 4 tendo suporte completo para PlayStation VR.</p>
         </div>
 
         <div class="card">
-            <img src="images/brawlhalla.png" alt="" class="thumbnails">
-            <p class="description">Brawlhalla é um jogo de luta de plataforma gratuito desenvolvido pela Blue Mammoth Games. Foi lançado originalmente para macOS, PlayStation 4 e Windows em 2017, com versões para Nintendo Switch, Xbox One, Android e iOS lançadas posteriormente. </p>
+            <img src="images/phasmo.png" alt="" class="thumbnails">
+            <p class="description">Phasmophobia é um jogo de terror de sobrevivência independente desenvolvido e publicado pela Kinetic Games. O jogo foi disponibilizado para acesso antecipado por meio da Steam para Microsoft Windows em setembro de 2020, junto com suporte para realidade virtual.</p>
         </div>
 
         <div class="card">
-            <img src="images/assassinscreed.png" alt="" class="thumbnails">
-            <p class="description">Assassin's Creed é uma série de jogos eletrônicos do gênero ação-aventura e RPG desenvolvida e publicada pela empresa Ubisoft.</p>
+            <img src="images/stay.png" alt="" class="thumbnails">
+            <p class="description">Stay out of the House é um simulador realista de fuga de assassinos em série. Você foi sequestrado e mantido em cativeiro na casa de um açougueiro canibal. E é apenas uma questão de tempo até que você vire o jantar. Fuja da maneira que puder.</p>
         </div>
     </section>
 
