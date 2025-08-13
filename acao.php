@@ -22,12 +22,10 @@ if (!isset($_SESSION['user_id'])) {
         <p class="title">AÇÃO</p>
 
         <nav>
-            <a href="acao.html" class="ativo">Ação</a>
-            <a href="estrategia.html">Estratégia</a>
-            <a href="terror.html">Terror</a>
+            <a href="acao.php" class="ativo">Ação</a>
+            <a href="estrategia.php">Estratégia</a>
+            <a href="terror.php">Terror</a>
         </nav>
-
-        <i class="fa-solid fa-circle-user" style="color: #0d00ff;"></i>
     </header>
 
     <section class="games">
