@@ -22,43 +22,41 @@ if (!isset($_SESSION['user_id'])) {
         <p class="title">ESTRATÉGIA</p>
 
         <nav>
-            <a href="acao.html">Ação</a>
-            <a href="estrategia.html" class="ativo">Estratégia</a>
-            <a href="terror.html">Terror</a>
+            <a href="acao.php">Ação</a>
+            <a href="estrategia.php" class="ativo">Estratégia</a>
+            <a href="terror.php">Terror</a>
         </nav>
-
-        <i class="fa-solid fa-circle-user" style="color: #fbff00;"></i>
     </header>
 
     <section class="games">
         <div class="card">
-            <img src="images/fortnite.png" alt="" class="thumbnails">
-            <p class="description">Fortnite é um jogo eletrônico multijogador online revelado originalmente em 2011, desenvolvido pela Epic Games e lançado como diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.</p>
+            <img src="images/clashroyale.png" alt="" class="thumbnails">
+            <p class="description">Clash Royale é um videojogo de estratégia freemium desenvolvido e publicado pela Supercell, empresa sediada em Helsinki, na Finlândia.</p>
         </div>
 
         <div class="card">
-            <img src="images/csgo.png" alt="" class="thumbnails">
-            <p class="description">Counter-Strike: Global Offensive (CS:GO) foi um jogo online desenvolvido pela Valve Corporation e pela Hidden Path Entertainment, sendo uma sequência de Counter-Strike: Source. É o quarto título principal da franquia.</p>
+            <img src="images/PvZ.png" alt="" class="thumbnails">
+            <p class="description">Plants vs. Zombies é um jogo eletrônico de tower defense e estratégia desenvolvido e originalmente publicado pela PopCap Games para Windows e OS X em 5 de maio de 2009. Desde então, foi portado para consoles, portáteis, e dispositivos móveis.</p>
         </div>
 
         <div class="card">
-            <img src="images/callofduty.png" alt="" class="thumbnails">
-            <p class="description">Call of Duty é uma série de jogos eletrônicos de tiro em primeira pessoa. O primeiro título da série foi lançado em 2003 exclusivamente para computadores. Mais tarde a série se expandiu para os mais variados sistemas, consoles, portáteis e smartphones.</p>
+            <img src="images/LoL.png" alt="" class="thumbnails">
+            <p class="description">League of Legends (abreviado como LoL e comumente referido como League) é um jogo eletrônico do gênero multiplayer online battle arena (MOBA) desenvolvido e publicado pela Riot Games.</p>
         </div>
 
         <div class="card">
-            <img src="images/mortalkombat.png" alt="" class="thumbnails">
-            <p class="description">Mortal Kombat é uma franquia americana de jogos eletrônicos de luta originalmente desenvolvidos e publicados pela Midway Games com seu primeiro lançamento em 1992 para arcades.</p>
+            <img src="images/brawlStars.png" alt="" class="thumbnails">
+            <p class="description">Brawl Stars é um jogo eletrônico mobile focado nos estilos de arena de batalha, multijogador online e habilidades em terceira pessoa, desenvolvido e publicado pela empresa produtora de jogos Supercell. </p>
         </div>
 
         <div class="card">
-            <img src="images/brawlhalla.png" alt="" class="thumbnails">
-            <p class="description">Brawlhalla é um jogo de luta de plataforma gratuito desenvolvido pela Blue Mammoth Games. Foi lançado originalmente para macOS, PlayStation 4 e Windows em 2017, com versões para Nintendo Switch, Xbox One, Android e iOS lançadas posteriormente. </p>
+            <img src="images/ClashofClans.png" alt="" class="thumbnails">
+            <p class="description">Clash of Clans é um jogo de estratégia desenvolvido pela Supercell, lançado em 2012 para iOS e no ano seguinte para Android. </p>
         </div>
 
         <div class="card">
-            <img src="images/assassinscreed.png" alt="" class="thumbnails">
-            <p class="description">Assassin's Creed é uma série de jogos eletrônicos do gênero ação-aventura e RPG desenvolvida e publicada pela empresa Ubisoft.</p>
+            <img src="images/Plague.png" alt="" class="thumbnails">
+            <p class="description">Plague Inc: Evolved é um jogo de estratégia e simulação para Windows, distribuído pelo Steam, também disponível para Mac OS X e Linux. No jogo, o jogador cria e desenvolve um agente patogênico com o objetivo de destruir toda a humanidade em uma epidemia global.</p>
         </div>
     </section>
 
